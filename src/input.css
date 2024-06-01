@@ -1,4 +1,3 @@
 @tailwind base; /* La directive base permet de faire un reset css */
-@tailwind components;/* components autorise la création de nouveaux composants afin de les réutiliser */
-@tailwind utilities;/* contient tous les utilitaires */
-
+@tailwind components; /* components autorise la création de nouveaux composants afin de les réutiliser */
+@tailwind utilities; /* contient tous les utilitaires */
