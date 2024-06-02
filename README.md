@@ -17,7 +17,7 @@ Pour que tailwind scanne tous les fichiers ayant la temrinaison voulue, ici .htm
 
 ######### COMPILATION
 
-npx tailwindcss -i ./src/input.css -o ./public/style.css --watch  <!-- Vérifier que le fichier que l'on veut scope soit bien défini dans le chemin, ici ./src/input n'est pas bon dans ma config, j'utilise ./src/css (j'ai changé pour plus d'homogénéité dans le code) -->
+npx tailwindcss -i ./src/input.css -o ./public/style.css --watch  <!-- Vérifier que le fichier que l'on veut scope soit bien défini dans le chemin, ici ./src/input n'est pas bon dans ma config, j'utilise ./dist/output.css (j'ai changé pour plus d'homogénéité dans le code) -->
 -i = analyse input -o = analyse fichier output --watch permet de loop la commande a chaque enregistrement
 
 ## Go to > index.html
