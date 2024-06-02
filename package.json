@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Mon projet de portfolio",
+  "main": "index.html",
+"scripts": {
+  "build": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+
+
+  "author": "Louis",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
+
