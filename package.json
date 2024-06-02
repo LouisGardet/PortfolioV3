@@ -1,17 +1,13 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Mon projet de portfolio",
-  "main": "index.html",
-"scripts": {
-  "build": "tailwindcss build src/styles.css -o dist/styles.css"
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css"
   },
-
-
-  "author": "Louis",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.0"
   }
 }
-
