@@ -1,4 +1,8 @@
 {
 "isGitignoreExtActive": true,
+<<<<<<< HEAD
 "liveServer.settings.port": 5501,
+=======
+"livePreview.defaultPreviewPath": "/public/bts_sio.html",
+>>>>>>> ca7e1c5f89cd0fb8abfcf4cade153828c51b8d06
 }
