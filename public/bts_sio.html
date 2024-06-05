@@ -14,51 +14,89 @@
         }
     </style>
 <body class="bg-slate-900 text-gray-100">
-    <div class="mx-auto max-w-screen-lg px-3 py-6">
-        <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between">
-                <div class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent">
-                    <img src="./assets/img/logo_portfolio.webp" alt="Logo" class="mr-1 h-10 w-10">
-                    Louis Gardet
-                </div>
-            <nav>
-                <ul class="flex gap-x-3 font-medium text-gray-200">
-                   
-                    <li class="hover:text-white">
-                        <a href="index.html">Accueil</a>
-                    </li>
-                    <li class="parcours">
-                        <a href="parcours.html">Parcours</a>
-                    </li>
-                    <li class="hover:text-white">
-                        <a href="https://github.com/LouisGardet" target="_blank">GitHub</a>
-                    </li>
-                    <li class="hover:text-white">
-                        <a href="https://www.linkedin.com/in/louis-gardet/" target="_blank">Linkedin</a>
-                    </li>
-                    <li class="hover:text-white">
-                        <a href="veille.html">Veille technologique</a>
-                    </li>
-                </ul>
-            </nav>
+    <div class="mx-auto max-w-screen-lg px-3 py-6 overflow-x-auto">
+        <div
+          class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div
+            class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent"
+          >
+            <img
+              src="./assets/img/logo_portfolio.webp"
+              alt="Logo"
+              class="mr-1 h-10 w-10"
+            />
+            Louis Gardet
+          </div>
+          <nav>
+            <ul class="flex gap-x-3 font-medium text-gray-200">
+              <li class="hover:text-white">
+                <a href="index.html"  aria-label="Page d'accueil" rel="noopener">Accueil</a>
+              </li>
+              <li class="bts_sio">
+                <a href="bts_sio.html" aria-label="Onglet BTS SIO" target="_blank" rel="noopener"
+                  >BTS SIO
+                </a>
+              </li>
+              <li class="parcours">
+                <a
+                  href="about.html"
+                  aria-label="Onglet Parcours professionnel"
+                  target="_blank"
+                  rel="noopener"
+                  >Parcours</a
+                >
+              </li>
+              <li class="tableauE4">
+                <a
+                  href="#"
+                  class="tableauSynthese"
+                  aria-label="Onglet du tableau de synthèse des compétences liées au BTS"
+                  target="_blank"
+                  rel="noopener"
+                  >Épreuve E4</a
+                >
+              </li>
+              <li class="situations">
+                <a
+                  href="#"
+                  class="situationE5"
+                  aria-label="Onglet des situations en entreprise"
+                  target="_blank"
+                  rel="noopener"
+                  >Épreuve E5</a
+                >
+              </li>
+              <li class="hover:text-white">
+                <a
+                  href="watch.html"
+                  aria-label="Onglet sur la veille technologique"
+                  target="_blank"
+                  rel="noopener"
+                  >Veille technologique</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-    </div>
+      </div>
 
-    <div class="flex-col items-center">
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
         <div class="text-center mt-2">
-            <h1 class="text-xl font-bold">BTS SIO</h1>
-            <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur réseau ou de développeur...</p>
+            <h1 class="text-xl font-bold mb-4">BTS SIO : Kézako ?</h1>
+            <p>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations est une formation diplomante en deux ans aux métiers d'administrateur réseau ou de développeur </p>
         </div>
     
-        
+        <div class="mt-8"></div>
         <div class="flex">
-            <div class="text-justify bg-red-500 rounded-md">
-                <h2 class="font-bold text-lg">Option SLAM</h2> <br>
-                <p class="text-lg"> Le signe SLAM signifie « Solutions Logicielles et Applications Métier ». <br>
+            <div class="text-justify  bg-slate-800 text-slate-300 rounded-md flex-1 mr-4 ">
+                <h2 class="text-xl font-semibold text-center mt-2 hover:text-slate-600 underline shadow-lg">Option SLAM</h2> <br>
+                <p class="text-base p-4"> 
+                    Le signe SLAM signifie « Solutions Logicielles et Applications Métier ». <br>
                     L’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
                     <br>Ils pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion. <br>
-                    Voici les débouchés avec un BTS SIO SLAM:
-
-                    <ol>
+                    <br>Voici les débouchés avec un BTS SIO SLAM:
+                    <ol class="p-4">
                         <li>- Développeur d'applications informatiques</li>
                         <li>- Développeur informatique</li>
                         <li>- Analyste d'applications ou d'études</li>
@@ -72,13 +110,13 @@
                     </ol> 
             </div>
             
-            <div class=" text-justify bg-slate-500 rounded-md    ">
-                <h2 class="font-bold text-lg">Option SISR</h2> <br>
-                <p class="text-lg"> L’acronyme SISR signifie « Solutions d’infrastructure, systèmes et réseaux ». <br>
+            <div class=" text-justify bg-slate-500 text-slate-200 rounded-md flex-1 ml-4">
+                <h2 class="text-xl font-semibold text-center mt-2 hover:text-slate-800 underline shadow-lg">Option SISR</h2> <br>
+                <p class="text-base p-4"> L’acronyme SISR signifie « Solutions d’infrastructure, systèmes et réseaux ». <br>
                     L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux. Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.
                     Des cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise. <br><br>
                     Voici les débouchés avec un BTS SIO SISR:
-                    <ol>
+                    <ol class="p-4 ">
                         <li>- Technicien de production</li>
                         <li>- Technicien d’infrastructure</li>
                         <li>- Technicien réseau et télécoms</li>
@@ -92,7 +130,17 @@
             </div>
         </div>
     </div>
-    
+
+<footer>
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+        <div class="border-t border-gray-600 pt-5">
+          <div class="text-sm text-gray-200">
+            © Copyright
+            <!-- -->
+            2022-2024 . Built with ♥ by Louis Gardet<!-- -->
+            .
+          </div>
+</footer>
 
 </body>
 </html>
