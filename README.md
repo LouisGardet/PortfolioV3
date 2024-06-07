@@ -47,7 +47,7 @@ module.exports = {
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/style.css --watch"
+    "build:css": "npx tailwindcss -i tailwind.css -o src/assets/css/style.css --watch"
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
@@ -70,7 +70,7 @@ Créer un fichier input.css dans le dossier src/css
 ### Compilation CSS
 
 ```bash
-npx tailwindcss -i ./src/css/input.css -o ./dist/css/style.css --watch
+npx tailwindcss -i tailwind.css -o src/assets/css/style.css --watch
 ```
 Changer le nom de dossier d'output et sa destination si vous suivez d'autres normes que les miennes.
 
@@ -93,7 +93,7 @@ chmod +x /chemin/vers/le/fichier
 Si le problème persiste, envisagez d’utiliser sudo :
 
 ```bash
-sudo npx tailwindcss -i ./src/css/input.css -o ./dist/css/style.css --watch
+npx tailwindcss -i tailwind.css -o src/assets/css/style.css --watch
 ```
 
 ### Mise à jour de Browserslist
@@ -153,7 +153,7 @@ Chemins incorrects dans les commandes ou les fichiers de configuration
 
     ```bash
 
-    npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch
+    npx tailwindcss -i tailwind.css -o src/assets/css/style.css --watch
     ```
 
     Assurez-vous que le fichier input.css existe à l'emplacement spécifié (./src/input.css).
@@ -187,7 +187,7 @@ ou
 
 ```bash
 
-    npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch
+    npx tailwindcss -i tailwind.css -o src/assets/css/style.css --watch
 ```
 
 5. Problèmes de Chemins Relatifs dans le HTML
