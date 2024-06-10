@@ -1,77 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Parcours professionnel</title>
-</head>
-<body>
-    <body class="bg-slate-900 text-gray-100">
-        <div class="mx-auto max-w-screen-lg px-3 py-6">
-            <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between">
-                <a href="/demo/astro-boilerplate">
-                    <div class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent">
-                        <svg class="mr-1 h-10 w-10 stroke-cyan-600" fill="none" stroke-linecap="round"
-                             stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0h24v24H0z" stroke="none"></path>
-                            <rect height="8" rx="1" width="6" x="3" y="12"></rect>
-                            <rect height="12" rx="1" width="6" x="9" y="8"></rect>
-                            <rect height="16" rx="1" width="6" x="15" y="4"></rect>
-                            <path d="M4 20h14"></path>
-                        </svg>
-                        Louis Gardet
-                    </div>
-                </a>
-                <!-- ########### NAVBAR -->
-                <nav>
-                  <ul class="flex gap-x-3 font-medium text-gray-200">
-                    <li class="hover:text-white">
-                      <a href="index.html" aria-label="Accueil">Accueil</a>
-                    </li>
-                    <li class="bts_sio">
-                      <a href="bts_sio.html" aria-label="Onglet BTS SIO" target="_blank"
-                        >BTS SIO
-                      </a>
-                    </li>
-                    <li class="parcours">
-                      <a
-                        href="about.html"
-                        aria-label="Onglet Parcours professionnel"
-                        target="_blank"
-                        >Parcours</a
-                      >
-                    </li>
-                    <li class="tableauE4">
-                      <a
-                        href="#"
-                        class="tableauSynthese"
-                        aria-label="Onglet du tableau de synthèse des compétences liées au BTS"
-                        target="_blank"
-                        >Tableau Synthèse</a
-                      >
-                    </li>
-                    <li class="situations">
-                      <a
-                        href="#"
-                        class="situationE5"
-                        aria-label="Onglet des situations en entreprise"
-                        target="_blank"
-                        >Les Situations</a
-                      >
-                    </li>
-                    <li class="hover:text-white">
-                      <a
-                        href="watch.html"
-                        aria-label="Onglet sur la veille technologique"
-                        target="_blank"
-                        >Veille technologique</a
-                      >
-                    </li>
-                  </ul>
-                </nav>
-            </div>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Portfolio de Louis Gardet, étudiant en BTS SIO à l'EPSI, passionné par la robotique et l'IA."
+      name="description"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>
+      Portfolio de Louis Gardet - Étudiant BTS SIO à l'EPSI - Passionné de
+      Robotique et IA
+    </title>
+    <style>
+      html,
+      body {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-900 text-gray-100">
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+      <div
+        class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <div
+          class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent"
+        >
+          <img
+            src="./assets/img/logo_portfolio.webp"
+            alt="Logo"
+            class="mr-1 h-10 w-10"
+          />
+          Louis Gardet
         </div>
+        <nav>
+          <ul class="flex gap-x-3 font-medium text-gray-200">
+            <li class="hover:text-white">
+              <a href="index.html" aria-label="Accueil" aria-label="Page d'accueil" rel="noopener">Accueil</a>
+            </li>
+            <li class="bts_sio">
+              <a href="bts_sio.html" aria-label="Onglet BTS SIO" target="_blank" rel="noopener"
+                >BTS SIO
+              </a>
+            </li>
+            <li class="parcours">
+              <a
+                href="about.html"
+                aria-label="Onglet Parcours professionnel"
+                target="_blank"
+                rel="noopener"
+                >Parcours</a
+              >
+            </li>
+            <li class="tableauE4">
+              <a
+                href="projects.html"
+                class="tableauSynthese"
+                aria-label="Onglet du tableau de synthèse des compétences liées au BTS"
+                target="_blank"
+                rel="noopener"
+                >Épreuve E4</a
+              >
+            </li>
+            <li class="situations">
+              <a
+                href="#"
+                class="situationE5"
+                aria-label="Onglet des situations en entreprise"
+                target="_blank"
+                rel="noopener"
+                >Épreuve E5</a
+              >
+            </li>
+            <li class="hover:text-white">
+              <a
+                href="watch.html"
+                aria-label="Onglet sur la veille technologique"
+                target="_blank"
+                rel="noopener"
+                >Veille technologique</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
         <!-- Timeline -->
     <div class="relative wrap overflow-hidden p-10 h-full">
@@ -166,6 +181,16 @@
 
 
     </div>
+
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+      <div class="border-t border-gray-600 pt-5">
+        <div class="text-sm text-gray-200">
+          © Copyright
+          <!-- -->
+          2022-2024 . Built with ♥ by Louis Gardet<!-- -->
+          .
+        </div>
+      </div>
 
 </body>
 </html>

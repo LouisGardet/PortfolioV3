@@ -1,126 +1,182 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Veille technologique</title>
-</head>
-<body class="bg-slate-900 text-gray-100">
-<div class="mx-auto max-w-screen-lg px-3 py-6">
-    <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between">
-        <a href="/demo/astro-boilerplate">
-            <div class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent">
-                <svg class="mr-1 h-10 w-10 stroke-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M0 0h24v24H0z" stroke="none"></path>
-                    <rect x="3" y="12" width="6" height="8" rx="1"></rect>
-                    <rect x="9" y="8" width="6" height="12" rx="1"></rect>
-                    <rect x="15" y="4" width="6" height="16" rx="1"></rect>
-                    <path d="M4 20h14"></path>
-                </svg>
-                Louis Gardet
-            </div>
-        </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Portfolio de Louis Gardet, étudiant en BTS SIO à l'EPSI, passionné par la robotique et l'IA."
+      name="description"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>
+      Portfolio de Louis Gardet - Étudiant BTS SIO à l'EPSI - Passionné de
+      Robotique et IA
+    </title>
+    <style>
+      html,
+      body {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-900 text-gray-100">
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+      <div
+        class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <div
+          class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent"
+        >
+          <img
+            src="./assets/img/logo_portfolio.webp"
+            alt="Logo"
+            class="mr-1 h-10 w-10"
+          />
+          Louis Gardet
+        </div>
         <nav>
-            <ul class="flex gap-x-3 font-medium text-gray-200">
-                <li class="hover:text-white">
-                    <a href="index.html">Accueil</a>
-                </li>
-                <li class="hover:text-white">
-                    <a href="https://github.com/LouisGardet" target="_blank">GitHub</a>
-                </li>
-                <li class="hover:text-white">
-                    <a href="https://www.linkedin.com/in/louis-gardet/" target="_blank">Linkedin</a>
-                </li>
-            </ul>
+          <ul class="flex gap-x-3 font-medium text-gray-200">
+            <li class="hover:text-white">
+              <a href="index.html" aria-label="Accueil" aria-label="Page d'accueil" rel="noopener">Accueil</a>
+            </li>
+            <li class="bts_sio">
+              <a href="bts_sio.html" aria-label="Onglet BTS SIO" target="_blank" rel="noopener"
+                >BTS SIO
+              </a>
+            </li>
+            <li class="parcours">
+              <a
+                href="about.html"
+                aria-label="Onglet Parcours professionnel"
+                target="_blank"
+                rel="noopener"
+                >Parcours</a
+              >
+            </li>
+            <li class="tableauE4">
+              <a
+                href="projects.html"
+                class="tableauSynthese"
+                aria-label="Onglet du tableau de synthèse des compétences liées au BTS"
+                target="_blank"
+                rel="noopener"
+                >Épreuve E4</a
+              >
+            </li>
+            <li class="situations">
+              <a
+                href="#"
+                class="situationE5"
+                aria-label="Onglet des situations en entreprise"
+                target="_blank"
+                rel="noopener"
+                >Épreuve E5</a
+              >
+            </li>
+            <li class="hover:text-white">
+              <a
+                href="watch.html"
+                aria-label="Onglet sur la veille technologique"
+                target="_blank"
+                rel="noopener"
+                >Veille technologique</a
+              >
+            </li>
+          </ul>
         </nav>
+      </div>
     </div>
-</div>
 
 <div class="mx-auto max-w-screen-lg px-3 py-6">
     <div class="text-center">
-        <h1 class="text-3xl font-bold">Random title here</h1>
-        <div class="mt-3 text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <h1 class="text-3xl font-bold">Veille technologique</h1>
+        <div class="mt-3 text-gray-200">Depuis quelques temps, on entend plus parler que de l'IA. Mais qu'est-elle réellement ? Ses domaines d'applications sont infinis et notre avenir y est intrinsèquement lié. Savez-vous réellement ce qu'est l'IA ?</div>
     </div>
 </div>
 <div class="mx-auto max-w-screen-lg px-3 py-6">
     <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-        <a class="hover:translate-y-1" href="/demo/astro-boilerplate/posts/sixth-post">
-            <div class="overflow-hidden rounded-md bg-slate-800">
+        <a class="hover:translate-y-1" href="https://docs.google.com/document/d/1H-3SeJUWAqgwxFn8sihERE7EfnW7slKNS_uQd3GJ9zM/">
+            <div class="overflow-hidden rounded-md bg-slate-800 min-h-[350px]">
                 <div class="aspect-w-3 aspect-h-2">
-                    <img class="h-full w-full object-cover object-center" src="/demo/astro-boilerplate/assets/images/image-post.jpeg" alt="Image post" loading="lazy"/>
+                    <img class="h-full w-full object-cover object-center" src="/src/assets/img/MachineLearning.webp" alt="Machine learning" loading="lazy"/>
                 </div>
                 <div class="px-3 pt-4 pb-6 text-center">
-                    <h2 class="text-xl font-semibold">Typography example</h2>
+                    <h2 class="text-xl font-semibold">Machine learning</h2>
                     <div class="mt-1 text-xs text-gray-400">Feb 6, 2020</div>
-                    <div class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.</div>
+                    <div class="mt-2 text-sm">Découvrez comment les algorithmes d'apprentissage automatique peuvent apprendre à partir des données pour automatiser les processus de décision.</div>
                 </div>
             </div>
         </a>
-        <a class="hover:translate-y-1" href="/demo/astro-boilerplate/posts/fifth-post">
-            <div class="overflow-hidden rounded-md bg-slate-800">
+
+
+               <a class="hover:translate-y-1" href="https://docs.google.com/document/d/1QrWfuFYPy9OpVUz6mTkYGfdSDBcNHQ6BvNqLFzOBcg0/">
+                <div class="overflow-hidden rounded-md bg-slate-800 min-h-[350px]">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img class="h-full w-full object-cover object-center" src="/src/assets/img/NeuralNetwork.webp" alt="Machine learning" loading="lazy"/>
+                    </div>
+                    <div class="px-3 pt-4 pb-6 text-center">
+                        <h2 class="text-xl font-semibold">Réseaux de neurones</h2>
+                        <div class="mt-1 text-xs text-gray-400">Feb 6, 2020</div>
+                        <div class="mt-2 text-sm">Explorez la structure et le fonctionnement des réseaux de neurones, similaires à ceux du cerveau humain.</div>
+                    </div>
+                </div>
+            </a>
+
+        <a class="hover:translate-y-1" href="https://docs.google.com/document/d/1wvp_aqTBcn8WMqGtN1hQuBP8gpGmaUKdJdyBLR76Bbc/">
+            <div class="overflow-hidden rounded-md bg-slate-800 min-h-[350px]">
                 <div class="aspect-w-3 aspect-h-2">
-                    <img class="h-full w-full object-cover object-center" src="/demo/astro-boilerplate/assets/images/image-post2.jpeg" alt="Image post 2" loading="lazy"/>
+                    <img class="h-full w-full object-cover object-center" src="/src/assets/img/ComputerVision.webp" alt="Machine learning" loading="lazy"/>
                 </div>
                 <div class="px-3 pt-4 pb-6 text-center">
-                    <h2 class="text-xl font-semibold">5th Lorem ipsum dolor sit</h2>
-                    <div class="mt-1 text-xs text-gray-400">Feb 5, 2020</div>
-                    <div class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.</div>
+                    <h2 class="text-xl font-semibold">Vision par ordinateur</h2>
+                    <div class="mt-1 text-xs text-gray-400">Feb 6, 2020</div>
+                    <div class="mt-2 text-sm">Apprenez comment les ordinateurs interprètent et comprennent le contenu visuel du monde réel</div>
                 </div>
             </div>
         </a>
-        <a class="hover:translate-y-1" href="/demo/astro-boilerplate/posts/forth-post">
-            <div class="overflow-hidden rounded-md bg-slate-800">
+
+
+               <a class="hover:translate-y-1" href="https://docs.google.com/document/d/1XoNEaevIm-WeS6OhEgJgfnSGQMOzdnac885Frokzm1Q/">
+                <div class="overflow-hidden rounded-md bg-slate-800 min-h-[350px]">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img class="h-full w-full object-cover object-center" src="/src/assets/img/NLP.webp" alt="Machine learning" loading="lazy"/>
+                    </div>
+                    <div class="px-3 pt-4 pb-6 text-center">
+                        <h2 class="text-xl font-semibold">Traitement du langage naturel</h2>
+                        <div class="mt-1 text-xs text-gray-400">Feb 6, 2020</div>
+                        <div class="mt-2 text-sm">Techniques permettant aux ordinateurs de comprendre et de générer du langage humain.</div>
+                    </div>
+                </div>
+            </a>
+
+
+        <a class="hover:translate-y-1" href="https://docs.google.com/document/d/1cKxgKp_jOnjAwYbTtRW13aZU70uHJdirqlqFCZ8_s30/">
+            <div class="overflow-hidden rounded-md bg-slate-800 min-h-[350px]">
                 <div class="aspect-w-3 aspect-h-2">
-                    <img class="h-full w-full object-cover object-center" src="/demo/astro-boilerplate/assets/images/image-post3.jpeg" alt="Image post 3" loading="lazy"/>
+                    <img class="h-full w-full object-cover object-center" src="/src/assets/img/RoboticDL.webp" alt="Machine learning" loading="lazy"/>
                 </div>
                 <div class="px-3 pt-4 pb-6 text-center">
-                    <h2 class="text-xl font-semibold">4th Lorem ipsum dolor sit</h2>
-                    <div class="mt-1 text-xs text-gray-400">Feb 4, 2020</div>
-                    <div class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.</div>
+                    <h2 class="text-xl font-semibold">Robotique intelligente</h2>
+                    <div class="mt-1 text-xs text-gray-400">Feb 6, 2020</div>
+                    <div class="mt-2 text-sm">Intégration de l'IA dans la robotique pour créer des machines capables d'accomplir des tâches complexes.</div>
                 </div>
             </div>
         </a>
-        <a class="hover:translate-y-1" href="/demo/astro-boilerplate/posts/third-post">
-            <div class="overflow-hidden rounded-md bg-slate-800">
-                <div class="aspect-w-3 aspect-h-2">
-                    <img class="h-full w-full object-cover object-center" src="/demo/astro-boilerplate/assets/images/image-post4.jpeg" alt="Image post 4" loading="lazy"/>
+
+
+               <a class="hover:translate-y-1" href="https://docs.google.com/document/d/1O5rGjscrZDkJ-W5N1lVCARl1fePuI8JLOpohEp3UB4Y/">
+                <div class="overflow-hidden rounded-md bg-slate-800 min-h-[350px]">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img class="h-full w-full object-cover object-center" src="/src/assets/img/AIEthics.webp" alt="Machine learning" loading="lazy"/>
+                    </div>
+                    <div class="px-3 pt-4 pb-6 text-center">
+                        <h2 class="text-xl font-semibold">Éthique de l'IA</h2>
+                        <div class="mt-1 text-xs text-gray-400">Feb 6, 2020</div>
+                        <div class="mt-2 text-sm">Considérations éthiques nécessaires pour le développement responsable des technologies d'IA.</div>
+                    </div>
                 </div>
-                <div class="px-3 pt-4 pb-6 text-center">
-                    <h2 class="text-xl font-semibold">3rd Lorem ipsum dolor sit</h2>
-                    <div class="mt-1 text-xs text-gray-400">Feb 3, 2020</div>
-                    <div class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.</div>
-                </div>
-            </div>
-        </a>
-        <a class="hover:translate-y-1" href="/demo/astro-boilerplate/posts/second-post">
-            <div class="overflow-hidden rounded-md bg-slate-800">
-                <div class="aspect-w-3 aspect-h-2">
-                    <img class="h-full w-full object-cover object-center" src="/demo/astro-boilerplate/assets/images/image-post5.jpeg" alt="Image post 5" loading="lazy"/>
-                </div>
-                <div class="px-3 pt-4 pb-6 text-center">
-                    <h2 class="text-xl font-semibold">2nd Lorem ipsum dolor sit</h2>
-                    <div class="mt-1 text-xs text-gray-400">Feb 2, 2020</div>
-                    <div class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.</div>
-                </div>
-            </div>
-        </a>
-        <a class="hover:translate-y-1" href="/demo/astro-boilerplate/posts/first-post">
-            <div class="overflow-hidden rounded-md bg-slate-800">
-                <div class="aspect-w-3 aspect-h-2">
-                    <img class="h-full w-full object-cover object-center" src="/demo/astro-boilerplate/assets/images/image-post7.jpeg" alt="Image post 7" loading="lazy"/>
-                </div>
-                <div class="px-3 pt-4 pb-6 text-center">
-                    <h2 class="text-xl font-semibold">1st Lorem ipsum dolor sit</h2>
-                    <div class="mt-1 text-xs text-gray-400">Feb 1, 2020</div>
-                    <div class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.</div>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<div class="mx-auto max-w-screen-lg px-3 py-6">
-    <div class="flex justify-center gap-8">
-        <a href="/demo/astro-boilerplate/posts/2/">Older Posts →</a>
+            </a>
     </div>
 </div>
 
